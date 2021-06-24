@@ -16,7 +16,7 @@ html{
     --icons-details:#A5B0C1;
 
     --grey-dark: #4D5E77;
-    --grey-blu:#A1B2CD;
+    --grey-blue:#A1B2CD;
     --grey-light:#E5EAF1;
 
     /*1rem = 16px (User Agente) = 100% (User Agente) */
@@ -24,6 +24,7 @@ html{
 }
 
 body{
+    display: flex;
     height: 100vh; /* view height = 100% da tela*/
     background: var(--background);  
 }
@@ -79,7 +80,7 @@ button:hover, .button:hover{
     filter: brightness(1,2);
 }
 
-button > img
+button > img,
 .button > img{
     margin-right: 1rem;
     width: 2rem ;
@@ -99,7 +100,7 @@ button.outlined,
 }
 
 .content header img{
-    width: 16.7rem;
+    width: auto;
     
 }
 
